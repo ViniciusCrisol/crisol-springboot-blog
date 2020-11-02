@@ -9,5 +9,4 @@ public class CrisolblogApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CrisolblogApplication.class, args);
 	}
-
 }
