@@ -1,10 +1,8 @@
 package com.spring.crisolblog.models;
 
-
 import com.fasterxml.jackson.annotation.JsonFormat;
-
-import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
+import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
