@@ -1,10 +1,10 @@
 package com.spring.crisolblog.services;
 
-import com.spring.crisolblog.models.Post;
 import java.util.List;
+import com.spring.crisolblog.models.Post;
 
 public interface PostServices {
-    Post save(Post post);
     List<Post> findAll();
+    Post save(Post post);
     Post findById(long id);
 }
