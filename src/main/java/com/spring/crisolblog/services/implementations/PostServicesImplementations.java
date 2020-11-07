@@ -1,18 +1,17 @@
 package com.spring.crisolblog.services.implementations;
 
-import com.spring.crisolblog.models.Post;
-import com.spring.crisolblog.repositories.PostsRepository;
-import com.spring.crisolblog.services.PostServices;
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.List;
-
-
+import com.spring.crisolblog.models.Post;
+import com.spring.crisolblog.services.PostServices;
+import com.spring.crisolblog.repositories.PostsRepository;
 
 @Service
 public class PostServicesImplementations implements PostServices {
-
+    
     @Autowired
     PostsRepository postsRepository;
 
